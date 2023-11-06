@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="imagen" language="groovy" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="noidentificacion" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="noorden" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT
+     scanner."noidentificacion" AS scanner_noidentificacion,
+     scanner."noorden" AS scanner_noorden,
+     scanner."fechascanner" AS scanner_fechascanner,
+     scanner."foto" AS scanner_foto,
+     scanner."llave" AS scanner_llave
+FROM
+     "public"."scanner" scanner
+WHERE
+     scanner."noidentificacion" = $P{noidentificacion}
+     and scannner."noorden" = $P{noorden}]]>
+	</queryString>
+	<field name="scanner_fechascanner" class="java.lang.String"/>
+	<field name="scanner_foto" class="java.lang.Object"/>
+	<filterExpression><![CDATA[]]></filterExpression>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="470" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{scanner_foto}]]></printWhenExpression>
+			<staticText>
+				<reportElement x="190" y="0" width="262" height="28" forecolor="#003366" backcolor="#003366"/>
+				<textElement>
+					<font fontName="Verdana" size="18"/>
+				</textElement>
+				<text><![CDATA[Resultados Clinicos]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="126" y="37" width="133" height="20"/>
+				<textElement/>
+				<text><![CDATA[scanner_fechascanner]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="259" y="37" width="144" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{scanner_fechascanner}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
