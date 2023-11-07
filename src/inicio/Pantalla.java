@@ -271,10 +271,7 @@ public class Pantalla extends javax.swing.JFrame {
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null},
-                {null, null, null, null, null, null},
-                {null, null, null, null, null, null},
-                {null, null, null, null, null, null}
+
             },
             new String [] {
                 "idCliente", "Nombre", "Apellido", "Direccion", "Email", "Telefono"
@@ -404,10 +401,7 @@ public class Pantalla extends javax.swing.JFrame {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null}
+
             },
             new String [] {
                 "idConductor", "Tipo", "Nombre", "Apellido", "Licencia", "Fecha Nacimiento", "Email", "Telefono"
@@ -628,10 +622,7 @@ public class Pantalla extends javax.swing.JFrame {
 
         jTable3.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
+
             },
             new String [] {
                 "idPedido", "Fecha Pedido", "Fecha Entrega", "Valor"
@@ -759,10 +750,7 @@ public class Pantalla extends javax.swing.JFrame {
 
         jTable4.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null}
+
             },
             new String [] {
                 "idDetalle", "idPedido", "Producto", "cantidad", "Valor Unitario"
@@ -1007,10 +995,7 @@ public class Pantalla extends javax.swing.JFrame {
 
         jTable6.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null}
+
             },
             new String [] {
                 "idVehiculo", "Placa", "Marca", "Modelo", "Capacidad de Carga"
