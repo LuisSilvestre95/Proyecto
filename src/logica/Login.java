@@ -2,6 +2,10 @@ package logica;
 
 import javax.swing.*;
 
+/**
+ *
+ * @author Luis Silvestre
+ */
 public class Login extends javax.swing.JFrame {
 
     public Login() {
