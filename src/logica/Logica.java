@@ -1,6 +1,6 @@
 package logica;
 
-import inicio.Pantalla;
+import vista.Login;
 
 /**
  *
@@ -12,7 +12,7 @@ public class Logica {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Pantalla panta = new Pantalla();
+        Login panta = new Login();
         panta.setVisible(true);
         panta.setLocationRelativeTo(null);
         

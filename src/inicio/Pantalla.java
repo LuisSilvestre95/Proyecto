@@ -1,4 +1,4 @@
-package inicio;
+package vista;
 
 /**
  *
@@ -1176,25 +1176,9 @@ public class Pantalla extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void BDetalleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BDetalleActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BDetalleActionPerformed
-
-    private void BVehiculoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BVehiculoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BVehiculoActionPerformed
-
-    private void BRutaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BRutaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BRutaActionPerformed
-
     private void BConductorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BConductorActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_BConductorActionPerformed
-
-    private void BPedidoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BPedidoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BPedidoActionPerformed
 
     private void BClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BClienteActionPerformed
         // TODO add your handling code here:
@@ -1251,6 +1235,22 @@ public class Pantalla extends javax.swing.JFrame {
     private void btnnuevot2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnnuevot2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnnuevot2ActionPerformed
+
+    private void BPedidoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BPedidoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BPedidoActionPerformed
+
+    private void BDetalleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BDetalleActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BDetalleActionPerformed
+
+    private void BRutaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BRutaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BRutaActionPerformed
+
+    private void BVehiculoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BVehiculoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BVehiculoActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton BCliente;
